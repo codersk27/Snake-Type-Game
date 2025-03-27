@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Snake Type Game</h1>
+    </header>
+    <main id="main">
+        <div id="flex_child1">
+            <canvas id="mycanvas"></canvas>
+            <div id="scoreBoard">Your Score:
+                <span id="score">0</span>
+            </div>
+        </div>
+        <section id="flex_child2">
+            <h2>How to play</h2>
+            <ol>
+                <li>
+                    Use up, down, left, right arrow keys to control the snake
+                </li>
+                <li>
+                    Try to just touch the snake to the ball/food to eat
+                </li>
+                <li>
+                    The snake does not grow in size but for every (score % 5 == 0) its speed increases by 5ms.
+                </li>
+            </ol>
+        </section>
+    </main>
+    <footer id="footer">
+        <h3>Happy Playing</h3>
+        <small id="creator">Made by Shubham Kumar</small>
+    </footer>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
